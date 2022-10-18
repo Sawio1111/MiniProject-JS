@@ -1,6 +1,6 @@
 # MiniProject-JS
 
-My folder with small javascript projects.
+My folder with small javascript projects (practise).
 
 - Calculator 
 - Stopwatch 
