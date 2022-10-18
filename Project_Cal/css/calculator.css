@@ -1,0 +1,65 @@
+body {
+    background-color: beige;
+}
+
+.calculator {
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 286px;
+    border: 2px solid black;
+}
+
+#history {
+    width: 280px;
+    border: 1px solid black;
+    text-align: right;
+}
+
+
+#input {
+    background-color: aliceblue;
+    display: block;
+    width: 280px;
+    height: 40px;
+    font-size: 35px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+
+.numbers button, .operators button {
+    display: inline-block;
+    margin: 2px;
+    width: 49px;
+    height: 30px;
+
+}
+
+
+button:hover {
+    border-color: darkred;
+}
+
+button:active {
+    font-weight: bold;
+    background-color: silver;
+}
+
+.number-panel, .operation-panel {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px;
+}
+
+button.bigger {
+    height: 65px;
+}
+
+button.clear {
+    background-color: red;
+}
+
+button.result {
+    background-color: teal;
+}
